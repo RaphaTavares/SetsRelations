@@ -1,0 +1,47 @@
+.pai{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(204, 112, 25); 
+    border-radius: 0%;
+    margin-top: 0%;
+}
+
+.filho{
+    line-height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body
+{
+    background-color: rgb(16, 185, 149); 
+}
+
+#filecontents {
+    border: double;
+    overflow-y: scroll;
+    height: 200px;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+body
+{
+    text-align: center;
+}
+
+#calculadora
+{
+    margin-top: 3%;
+}
+
+#botao
+{
+    margin-top: 2%;
+    width: 7%;
+    height: 25px;
+    background-color: orangered;
+}

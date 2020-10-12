@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="css.css" rel="stylesheet">
+    <title>FileAPI HTML5</title>
+</head>
+
+<body>
+
+   Por favor selecione arquivo que será lido: <br>
+    <input type="file" id="txtfiletoread" /><br />
+    <div>Conteúdo do arquivo:</div>
+    <div id="filecontents">
+    </div>
+    <div id="calculadora">
+        <form action=></form>
+        <input type="text" id="elemento1" maxlength="1" placeholder="Conjunto/Elemento">
+
+        <select name="operacao" id="operacao" placeholder="Operação">
+        <option value="" disabled selected>Selecione operação</option>
+        <option value="1">Pertence (∈)</option>
+        <option value="2">Não pertence (∉)</option>
+        <option value="3">Contido ou igual (⊆)</option>
+        <option value="4">Não contido ou igual (⊈)</option>
+        <option value="5" >Contido propriamente (⊂)</option>
+        <option value="6">Não contido propriamente (⊄)</option>
+        <option value="7">União (U)</option>
+        <option value="8">Interseção (∩)</option>
+        <option value="9" >Produto cartesiano (X)</option>
+        <option value="10">Conjunto das partes (P(A))</option>
+        <option value="11">Diferença de conjuntos</option>
+        </select>
+
+        <input type="text" id="elemento2" maxlength="1" placeholder="Conjunto/Elemento">
+    </div>
+
+    <script src="js.js"></script>
+
+    <button id="botao" onclick="calcula()">Calcular</button>
+    
+
+
+</body>
+</html>
